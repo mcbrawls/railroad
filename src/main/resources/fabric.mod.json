@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "railroad",
+	"version": "${version}",
+	"name": "Railroad",
+	"description": "A library for creating server-side camera animation tracks.",
+	"authors": [
+		"Andante"
+	],
+	"contact": {
+		"sources": "https://github.com/mcbrawls/railroad"
+	},
+	"license": "MIT",
+	"icon": "assets/railroad/icon.png",
+	"environment": "*",
+	"mixins": [
+		"railroad.mixins.json"
+	],
+	"accessWidener": "railroad.accesswidener",
+	"custom": {
+		"loom:injected_interfaces": {
+			"net/minecraft/class_3222": [
+				"net/mcbrawls/railroad/RailroadPlayer"
+			]
+		}
+	},
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": "~1.21.3",
+		"fabric-api": "*",
+		"fabric-language-kotlin": "*"
+	}
+}
