@@ -3,7 +3,7 @@
 	"package": "net.mcbrawls.railroad.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+        "ServerPlayerEntityMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
