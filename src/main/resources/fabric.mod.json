@@ -26,8 +26,9 @@
 	},
 	"depends": {
 		"fabricloader": "*",
-		"minecraft": "~1.21.3",
+		"minecraft": "~1.21.4",
 		"fabric-api": "*",
-		"fabric-language-kotlin": "*"
+		"fabric-language-kotlin": "*",
+		"codex": ">=1.1"
 	}
 }

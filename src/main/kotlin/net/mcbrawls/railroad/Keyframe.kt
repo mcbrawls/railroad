@@ -2,7 +2,7 @@ package net.mcbrawls.railroad
 
 import com.mojang.serialization.Codec
 import com.mojang.serialization.codecs.RecordCodecBuilder
-import net.mcbrawls.railroad.codec.ExtraCodecs
+import dev.andante.codex.ExtraCodecs
 import org.joml.Vector2f
 import org.joml.Vector3d
 
